@@ -4,8 +4,8 @@
 
 
 // Data Monica
-let favMonicaColor = ["Yellow", "Pink", "White", "Purple"]
-let favMonicaRestaurant = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang",
+const favMonicaColor = ["Yellow", "Pink", "White", "Purple"]
+const favMonicaRestaurant = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang",
                              "Tteok", "Sushi", "Sushi"]
 
 const firstUser = {
@@ -24,8 +24,8 @@ const firstUser = {
 };
 
 // Data Wendy
-let favWendyColor = ["Blue", "Black", "Grey"]
-let favWendyRestaurant = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]
+const favWendyColor = ["Blue", "Black", "Grey"]
+const favWendyRestaurant = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]
 
 const secondUser = {
     name : "Wendy",
