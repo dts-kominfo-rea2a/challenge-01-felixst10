@@ -7,32 +7,36 @@
 const favMonicaColor = ["Yellow", "Pink", "White", "Purple"]
 const favMonicaRestaurant = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang",
                              "Tteok", "Sushi", "Sushi"]
+let favColorMonica = new Set(favMonicaColor);
+let favRestaurantMonica = new Set(favMonicaRestaurant)
 
 const firstUser = {
     name : "Monica",
     gender : "Female",
     age : 17,
     email : "monica@dingdong.com",
-    favoriteColor : [...favMonicaColor],
+    favoriteColor : [...favColorMonica],
     isHavePet : "Yes",
     education : [
         {name : "SD 01", city : "Jakarta", graduate : "2016"},
         {name : "SMP 02", city : "Jakarta", graduate : "2019"},
         {name : "SMA 03", city : "Tangerang"}
     ],
-    favoriteRestaurant : [...favMonicaRestaurant]
+    favoriteRestaurant : [...favRestaurantMonica]
 };
 
 // Data Wendy
 const favWendyColor = ["Blue", "Black", "Grey"]
 const favWendyRestaurant = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]
+let favColorWendy = new Set(favWendyColor)
+let favRestaurantWendy = new Set(favWendyRestaurant)
 
 const secondUser = {
     name : "Wendy",
     gender : "Male",
     age : 23,
     email : "wendy@dingdong.com",
-    favoriteColor : [...favWendyColor],
+    favoriteColor : [...favColorWendy],
     isHavePet : "No",
     education : [
         {name: "SD 02", city: "Jakarta", graduate: 2010},
@@ -40,7 +44,7 @@ const secondUser = {
         {name: "SMA 01", city: "Surabaya", graduate: 2016},
         {name: "Universitas Maju", city: "Tangerang"}
     ],
-    favoriteRestaurant : [...favWendyRestaurant]
+    favoriteRestaurant : [...favRestaurantWendy]
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
